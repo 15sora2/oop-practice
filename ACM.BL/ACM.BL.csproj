@@ -49,6 +49,8 @@
     <None Include="notes\Identifying Classes from Requirments" />
     <None Include="notes\Introduction to OOP" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="notes\Building Entity Classes-Methods.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
