@@ -1,0 +1,6 @@
+C:\Users\gortr\source\repos\ACM\ACM.BL\bin\Debug\ACM.BL.dll
+C:\Users\gortr\source\repos\ACM\ACM.BL\bin\Debug\ACM.BL.pdb
+C:\Users\gortr\source\repos\ACM\ACM.BL\obj\Debug\ACM.BL.csprojAssemblyReference.cache
+C:\Users\gortr\source\repos\ACM\ACM.BL\obj\Debug\ACM.BL.csproj.CoreCompileInputs.cache
+C:\Users\gortr\source\repos\ACM\ACM.BL\obj\Debug\ACM.BL.dll
+C:\Users\gortr\source\repos\ACM\ACM.BL\obj\Debug\ACM.BL.pdb

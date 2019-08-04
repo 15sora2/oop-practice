@@ -12,17 +12,33 @@
 --Common code
     -->May include code for functions
 
-****
-****
-****
-****
-****
-****
-****
-****
-****
-****
-****
-****
+****Building a Class: Properties****
+--> Rename the class in the Solution window to change the name in the class along 
+	with the file name.
+-->public: reachable by any other place in the application
+-->We want entity classes to be public so the other layers can each thier functionality
+--> use only "get" keyword to make a property "read-only"
+--> use only "set" keyword to make a property "set-only"
 
-A study of C# Object-Oriented Programming as directed by Deborah Kurata's Pluralsight course, titled "Object-Oriented Programming Fundamentals in C#.
+****Using Snippets****
+--> Snippets are pre-built pieces of code
+
+****Testing the class****
+--> See "Defensive Coding in C#" on Pluralsight for more about testing
+
+****Testing the class:valid values****
+-->Add test soulution folder under "Solution [project name]", not the [project name] 
+	solution folder
+--> Add the project to the Test reference by right-clicking on "References"
+	then adding it under the "Projects" tab
+
+****Testing the class: Invalid Values****
+--> 
+
+****
+****
+****
+****
+****
+****
+****
