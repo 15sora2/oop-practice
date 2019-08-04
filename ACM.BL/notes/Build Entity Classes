@@ -9,7 +9,8 @@
     -->Data access layer
         -->Code to retrieve data from the database, and save data
             in the database
---Common code
+--Common library/code
+	-->General purpose code (logging, sending emails, etc.)
     -->May include code for functions
 
 ****Building a Class: Properties****
@@ -33,12 +34,16 @@
 	then adding it under the "Projects" tab
 
 ****Testing the class: Invalid Values****
---> 
 
-****
-****
-****
-****
+****Working with Object****
+
+****Objects Are Reference Types****
+
+****Static Modifiers
+-->Declares a member that belongs to the class itself
+public static int instanceCount { get; set; }
+
+****Checklists and Summary
 ****
 ****
 ****

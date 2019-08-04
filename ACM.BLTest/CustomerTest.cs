@@ -55,5 +55,23 @@ namespace ACM.BLTest
 
             Assert.AreEqual(actualFullName, expectedFullName);
         }
+
+        [TestMethod]
+        public void StaticTest()
+        {
+            var c1 = new Customer();
+            c1.FirstName = "Tom";
+            Customer.instanceCount += 1;
+
+            var c2 = new Customer();
+            c2.FirstName = "Mike";
+            Customer.instanceCount += 1;
+
+            var c3 = new Customer();
+            c3.FirstName = "Mary";
+            Customer.instanceCount += 1;
+
+            Assert.AreEqual(3, Customer.instanceCount);
+        }
     }
 }

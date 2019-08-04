@@ -23,6 +23,9 @@ namespace ACM.BL
                     fullName = LastName;
                 }
                 return fullName;
-            } }
+            }
+        }
+
+        public static int instanceCount { get; set; }
     }
 }
