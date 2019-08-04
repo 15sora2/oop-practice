@@ -1,0 +1,28 @@
+****Layering The Application****
+-->Most apps are built with a layered structure
+    -->Key to a good application structure
+-->3 layers
+    -->User interface layer
+        --> Forms, etc
+    -->Business logic layer
+        --> logic to perform the operations
+    -->Data access layer
+        -->Code to retrieve data from the database, and save data
+            in the database
+--Common code
+    -->May include code for functions
+
+****
+****
+****
+****
+****
+****
+****
+****
+****
+****
+****
+****
+
+A study of C# Object-Oriented Programming as directed by Deborah Kurata's Pluralsight course, titled "Object-Oriented Programming Fundamentals in C#.

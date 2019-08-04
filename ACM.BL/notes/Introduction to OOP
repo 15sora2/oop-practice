@@ -1,0 +1,47 @@
+****Object != Class****
+-->Object and Class are not the same thing
+--> A class is code
+    --> Contains properties and methods
+    --> Provides definitions for the given object
+--> An object is an instance of a class
+    --> Use object variable to get or set any of the properties of a class
+--> Think of a cookie cutter
+    --> Use the cookie cutter to create "instances" or cookie from the dough
+    --> The class is the dough
+
+****Terms in Context****
+-->What's a "business object"?
+    --> Normally refers to a class
+    -->In this context, a business object is not an object, but a class
+--> What's an "Entity"?
+    --> Anything important enough to be represented as a class is an entity
+    --> Has nothing to do with Entity Framework
+--> Apply this to making a Customer Management System
+    --> Entity
+        -->customer
+    --> Class
+        -->Customer
+            -Last Name
+            -First Name
+            -Go On An Adventure
+    --> Object
+        --> The application would ask for a name, which would be our instance
+            -Biblo Baggins
+            -Frodo Baggins
+                -->These are the [customer] objects created from the class
+                --> Either one can execute "Go on an Adventure"
+
+****What Is Object-Oriented Programming (OOP)****
+-->An approach to designing and building applications
+    --> Makes them flexible, natural, well-crafted, and Testable
+-->Focuses on objects interacting cleanly with one another
+--> Process
+    --> Identify classes from requirements/specification
+    --> Logically separate responsibilities with minimum overlap
+    --> Establishing relationships
+    --> Leveraging reuse
+        -->it's an iterative process (will do each process over and over)
+
+****Get the most from this course****
+--> Review module concepts
+--> Revisit notes as we build applications

@@ -1,0 +1,65 @@
+-->Abstraction is more of a way of thinking than a way of coding.
+
+****Analyze the Business Problem****
+--> The first step to developing an application/OOP is be identifing the classes.
+
+****Start with the Nouns****
+-->In this sense, a noun is a person, place, thing, or PROCESS
+    -->In the current cntext, the nouns we pick from the customers 
+        requirements are customer, product, and order
+--> In this instance, each requirememnt brought about one class. There will be times where 
+    a requirement will bring about more than one class or no classes at all.
+--> These classes manage the different requirements.
+
+****Define Appropriate Members/Properties****
+--> The members of a class define the properties or data that the class 
+    requires and defines the methods/operations that the class can perform.
+--> Use the requirements as the starting point to define the members of each class.
+--> Customer Class
+    -->Name (last name, first name)
+    -->Email address
+    -->Home and work addresses
+-->Product Class
+    -->Product name
+    -->Description
+    -->Current price
+-->Order Class
+    -->Customer
+    -->Order date
+    -->Shipping address
+    -->Order items
+-->Order Item
+    -->Product
+    -->Quantity
+--> In this case, each class should have these methods
+    -->Validate()
+    -->Retrieve()
+    -->Save()
+
+****Consider Time****
+-->Think about the effect of data changes over time and how it effects the 
+    data properties in the other classes
+-->Customer
+    -->Email/Home/work addresses & last names may changes
+        -->How does this affect Order?
+-->Product
+    -->Prices, description, product name may change
+        -->How might this affect Order Item?
+-->Order
+    -->Shipping addresses may change
+-->Order Item
+
+****Abstraction****
+--> Pillar of OOP
+-->Depends on the requirements of the application
+-->Process of defining classes by focusing on the details that are important and
+    relevant to the application.
+
+****Encapsulation****
+--> Pillar of OOP
+--> A technique that hides implementation details of a class, which hides it's complexity.
+    -->No other code in the application needs to know the details about this code
+-->Breaks code into "Encapsulated units"/classes
+-->Allows the objects in an application to work together without knowing the details of other classes
+-->It protects the data in the class from being corrupted by other objects by only 
+    allowing access to the information through getters and setters
