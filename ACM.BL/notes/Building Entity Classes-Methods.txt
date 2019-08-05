@@ -1,0 +1,35 @@
+﻿****Building a Class: Methods****
+-->Since methods are usually actions, name
+	them using verbs (Save, Retrieve, etc.)
+
+****Testing the methods****
+
+****Terms****
+-->Signature
+	Class/methodName(parameters)
+-->Overloading: same class/method name but different parameters
+-->Contract
+	--> right-click, outlining, collapse to definitons
+	--> to bring it back, hit "toggle all outlining"
+
+****Building a class: constructors****
+-->ctor: snippit command that will generate the constructor
+-->The code within the constructor are used to initailize the object
+-->A constructor with no parameters is called a "Default Constructor"
+	-->If there's no need for code in a constructor, simply don't create one
+		An implicit constructor is created automatically.
+		-->An exemption being if there is an overloaded constructor. In 
+			this case, an empty contructor is acceptable
+
+****Building the remaining classes****
+-->
+
+****
+****
+****
+****
+****
+****
+****
+****
+****

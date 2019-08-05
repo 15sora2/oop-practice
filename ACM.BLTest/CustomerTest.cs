@@ -73,5 +73,34 @@ namespace ACM.BLTest
 
             Assert.AreEqual(3, Customer.instanceCount);
         }
+
+        [TestMethod]
+        public void CustomerIsValidated()
+        {
+            var customer = new Customer()
+            {
+                LastName = "Sawyer",
+                EmailAddress = "fgdsgfasf"
+            };
+
+            Assert.IsTrue(customer.Validate());
+        }
+
+        [TestMethod]
+        public void CustomerIsNotValidated()
+        {
+            var c1 = new Customer()
+            {
+                LastName = "Sawyer",
+            };
+
+            var c2 = new Customer()
+            {
+                EmailAddress = "dfafafaf"
+            };
+
+            Assert.IsFalse(c1.Validate());
+            Assert.IsFalse(c2.Validate());
+        }
     }
 }

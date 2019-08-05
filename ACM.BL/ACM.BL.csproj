@@ -42,6 +42,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Customer.cs" />
+    <Compile Include="Order.cs" />
+    <Compile Include="OrderItem.cs" />
+    <Compile Include="Product.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -49,6 +52,8 @@
     <None Include="notes\Identifying Classes from Requirments" />
     <None Include="notes\Introduction to OOP" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="notes\Building Entity Classes-Methods.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
