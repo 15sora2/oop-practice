@@ -1,5 +1,6 @@
 ﻿****Building a Class: Methods****
-
+-->Since methods are usually actions, name
+	them using verbs (Save, Retrieve, etc.)
 
 ****Testing the methods****
 
