@@ -1,0 +1,26 @@
+﻿****Seperation of Concerns****
+-->Minimizes coupling
+	-->The degree that a class is dependent on other classes
+	-->Fewer dependencies = easier to manage/write/modify
+-->Maximizing Cohesion
+	-->If a class has too many dependencies, consider moving some to 
+		another class
+-->Coupling and Cohesion
+	-->Low Coupling:
+	-->High Cohesion: helps produced a well-defined and focused class
+-->Simplifies maintenance
+-->Improves testability
+
+****Revisiting the Class Diagram
+-->Separating responsibilities
+-->  Repository Class is a class dedicated to retrieving 
+	and saving data
+
+****Building the Address Class
+****Building a Repository Class
+****Testing A Repository Class****
+****Building the Remaining Repositories****
+****
+****
+****
+****
