@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Address.cs" />
+    <Compile Include="AddressRepository.cs" />
     <Compile Include="Customer.cs" />
     <Compile Include="Order.cs" />
     <Compile Include="OrderItem.cs" />
@@ -52,12 +53,13 @@
     <Compile Include="CustomerRepository.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="notes\Build Entity Classes" />
-    <None Include="notes\Identifying Classes from Requirments" />
-    <None Include="notes\Introduction to OOP" />
+    <Content Include="notes\Build Entity Classes.txt" />
+    <Content Include="notes\Identifying Classes from Requirments.txt" />
+    <Content Include="notes\Introduction to OOP.txt" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="notes\Building Entity Classes-Methods.txt" />
+    <Content Include="notes\Establishing Relationships.txt" />
     <Content Include="notes\Separation of Responsibilities.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
