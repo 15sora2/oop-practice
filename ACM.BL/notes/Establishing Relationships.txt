@@ -1,0 +1,57 @@
+﻿****Defining the Relationships****
+
+****Types of Relationships****
+-->We look for relationships that have to do with the requirements of our classes/application
+	not general relationships(like customers having a pet in the context of this application)
+-->Collaboration ("uses a")
+	-->Exists whenever an object uses an instance of an object it
+		isn't necessarily related to. (relationship between Customer repository & customer)
+
+-->Composition ("has a")
+	-->Aggregation: an object being composed of many objects (order & customer)
+	-->Composition: 
+
+-->Inheritance ("is a")
+
+****Collaboration****
+-->Relationship between Customer and Customer Repository, where Retrieve
+	requires an instance of Customer
+-->When a class uses another class that is otherwise unrelated
+
+****Composition****
+-->When one class is composed of one or more objects/parts from another class.
+-->Implement as a property reference
+	public List<OrderITem> orderItems{get; set;}
+-->or as an Id
+	public int CustomerId {get; set;}
+
+****Composition: References****
+-->Constructor chaining:Technique used when one constructor needs to call another
+public Customer(): this(0)
+        {
+        }
+        public Customer(int customerId)
+        {
+            CustomerId = CustomerId;
+            AddressList = new List<Address>();
+        }
+-->In this case, the default constructor calls the constructor that has parameters, 
+	which will give Customer a default customerId of 0 upon instantiation
+-->This will always create an instance of Customer that will create an AddressList
+
+****Populating the Referenced Objects****
+-->IEnumerable:recommended way to return a sequence of data
+
+****Testing a Composition Relationship****
+-->
+
+****Composition: Ids****
+-->Advantage of using IDs
+	-->Reduces coupling
+	-->Increases efficiency
+
+****Inheritance ("is a")****
+-->Defines classes that are a more specialized version of another class
+-->Inheritance in C#
+	-->A class can only have one parent class
+	-->There can be any number of sublevels
